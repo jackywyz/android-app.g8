@@ -10,7 +10,7 @@ To use this template, g8 needs to be installed first. Read g8's
 
 All done? Now fire up your favorite shell and enter
 
-    g8 jberkel/android-app
+    g8 jackywyz/android-app
     cd <name-of-app>
     sbt android:package-debug
 
