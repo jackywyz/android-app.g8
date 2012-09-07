@@ -13,6 +13,7 @@ object General {
   )
 
   val proguardSettings = Seq (
+    proguardOption in Android := "-keep class scala.Function1",
     useProguard in Android := $useProguard$
   )
 
